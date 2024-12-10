@@ -1,6 +1,10 @@
 h2{
     size: 2cap;
 }
-p{
+p, h4{
     color: rgb(251, 251, 252);
+    padding: 1rem;
+}
+.btn{
+    background-color: aqua;
 }

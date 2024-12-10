@@ -38,6 +38,10 @@ const Navbar = () => {
             <button className="button">
           <Link to={'/'}>LOGIN</Link></button>
           </li>
+          <li>
+            <button className="btn">
+          <Link to={'/Dashboard'}>DASHBOARD</Link></button>
+          </li>
         </ul>
       </div>
     </nav>

@@ -1,9 +1,4 @@
-/* General Styling */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
+
   /* Navbar Container */
   .navbar {
     background-color: #333;
@@ -92,4 +87,11 @@ body {
       width: 100%;
     }
   }
-  
+  .btn{
+    background-color: green;
+  }
+  .left{
+    width: 50%;
+    float: left;
+    display: flexbox;
+  }

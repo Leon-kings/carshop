@@ -9,6 +9,7 @@ import Login from './pages/form/login/Login';
 // home pages components
 import Home from './pages/home/Home';
 import StickyNavbar from './components/nav/Nav';
+import FooterWithSitemap from './components/footer/Footer';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -31,6 +32,7 @@ function App() {
           }
         />
       </Routes>
+      <FooterWithSitemap/>
     </BrowserRouter>
   );
 }
